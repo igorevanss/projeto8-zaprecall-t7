@@ -2,12 +2,10 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Recursive', sans-serif;
 }
 
 body {
   background-color: #FB6B6B;
-  font-family: 'Righteous', cursive;
 }
 
 #root {
@@ -68,7 +66,7 @@ header {
   gap: 30px;
   position: fixed;
   top: 42px;
-  left: auto;
+  left: center;
 }
 
 header>img {
@@ -110,5 +108,25 @@ header>img {
 
 .flash-card ion-icon {
   font-size: 22px;
+  color: #333333;
+}
+
+footer {
+  background-color: #FFFFFF;
+  width: 100%;
+  min-height: 70px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer>p {
+  font-family: 'Recursive', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
   color: #333333;
 }
