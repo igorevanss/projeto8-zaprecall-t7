@@ -7,7 +7,9 @@ export default function Home() {
 
       <h2>ZapRecall</h2>
       
+      <Link to='/questions'>
       <button><p>Iniciar Recall!</p></button>
+      </Link>
     </div>
   )
 }

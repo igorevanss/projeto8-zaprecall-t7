@@ -40,7 +40,7 @@ body {
 
 }
 
-.home>button {
+.home button {
   width: 246px;
   height: 54px;
   background: #FFFFFF;
@@ -49,7 +49,11 @@ body {
   border-radius: 5px;
 }
 
-.home>button>p {
+.home button:hover {
+  cursor: pointer;
+}
+
+.home button>p {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
