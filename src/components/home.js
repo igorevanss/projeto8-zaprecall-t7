@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="home">
-      <img src="./images/logo.png" alt=""/>
+      <img src="./images/logo-big.png" alt=""/>
 
       <h2>ZapRecall</h2>
       
