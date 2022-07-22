@@ -106,9 +106,51 @@ header>img {
   color: #333333;
 }
 
+.flash-card span {
+  display: none;
+}
+
 .flash-card ion-icon {
   font-size: 22px;
   color: #333333;
+}
+
+.flash-card img {
+  display: none;
+}
+
+.question {
+  width: 299px;
+  height: 131px;
+  background-color: #FFFFD5;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 14px;
+  position: relative;
+}
+
+.question p {
+  display: none;
+}
+
+.question span {
+  font-family: 'Recursive', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.question ion-icon {
+  display: none;
+}
+
+.question img {
+  width: 30px;
+  position: absolute;
+  bottom: 6px;
+  right: 10px;
 }
 
 footer {
